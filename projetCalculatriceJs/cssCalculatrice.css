@@ -1,0 +1,118 @@
+
+
+body {
+    display: flex;
+    width : 100vw;
+    height : 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#containerMain {
+display: flex;
+flex-direction:column;
+align-content: space-around;
+padding: 2em;
+width : 40vw;
+height : 70vh;
+border : 2px solid black;
+background : #4040ff;
+color : White;
+
+}
+
+
+#blockOne,
+#blockTwo  {
+    display:flex;
+    border : 2px solid white;
+    background : #4040ff;
+    color : White;
+    margin: 1rem;
+    padding: 1rem;
+    font-size : x-large;
+}
+
+#blockTwo {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap-reverse;
+    gap: 2%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#blockOne {
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height:20%;
+    gap: 5%;
+
+}
+
+#blockOneChildOne,
+#blockOneChildTwo {
+    display:flex;
+    /* border : 2px solid yellow; */
+    background : cyan;
+    color : #4040ff;
+    justify-content: space-around;
+    align-content: space-around;
+    font-size : xx-large;
+}
+#blockOneChildOne {
+    display: flex;
+    flex:4;
+    justify-content:left;
+    align-items: center;
+    padding-left: 10%;
+    color : #8c00ff;
+}
+
+#blockOneChildTwo {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+
+.touch{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid cyan;
+    color : #4040ff;
+    background-color: cyan;
+    width : 20%;
+    height : 20%;
+    font-size : x-large;
+}
+
+.touchInit{
+    display : flex;
+    justify-content: stretch;
+    align-items: center;
+    border : 2px solid cyan;
+    color : #4040ff;
+    background-color: cyan;
+    font-size : x-large;
+
+}
+
+button:hover{
+    color : #00ffff;
+    background-color: #4040ff;
+}
+
+button:active{
+    color : #4040ff;
+    background-color: #efc850;
+}
+
+@media screen and (max-width: 640px) {
+    #containerMain {
+    width : 80vw;
+    }
+}

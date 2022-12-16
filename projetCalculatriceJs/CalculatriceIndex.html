@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssCalculatrice.css">
+    <title>ProjetCalculatrice</title>
+
+</head>
+
+<body>
+
+
+
+    <div id ="containerMain">
+        <p>Calculatrice JS by JamesNirinaDev</p>
+        <div id="blockOne">
+            <div id="blockOneChildOne">
+
+            </div>
+            <div id="blockOneChildTwo">
+                <button class="touchInit" onclick="initialisationCalculatrice()"> C </button>
+            </div>
+
+
+        </div>
+
+        <div id="blockTwo">
+
+            <button id="toucheOperateur1" class="touch" value="." onclick="myGet('.')">.</button>
+            <button id="touche0" class="touch" value="0" onclick="myGet('0')">0</button>
+            <button id="toucheOperateur2" class="touch" value="=" onclick="myGet('sum =')">=</button>
+            <button id="toucheOperateur3" class="touch" value="/" onclick="myGet('/')">/</button>
+            <button id="touche1" class="touch" value="1" onclick="myGet('1')">1</button>
+            <button id="touche2" class="touch" value="2" onclick="myGet('2')">2</button>
+            <button id="touche3" class="touch" value="3" onclick="myGet('3')">3</button>
+            <button id="toucheOperateur4" class="touch" value="*" onclick="myGet('*')">x</button>
+            <button id="touche4" class="touch" value="4" onclick="myGet('4')">4</button>
+            <button id="touche5" class="touch" value="5" onclick="myGet('5')">5</button>
+            <button id="touche6" class="touch" value="6" onclick="myGet('6')">6</button>
+            <button id="toucheOperateur5" class="touch" value="-" onclick="myGet('-')">-</button>
+            <button id="touche7" class="touch" value="7" onclick="myGet('7')">7</button>
+            <button id="touche8" class="touch" value="8" onclick="myGet('8')">8</button>
+            <button id="touche9" class="touch" value="9" onclick="myGet('9')">9</button>
+            <button id="toucheOperateur6" class="touch" value="+" onclick="myGet('+')">+</button>
+
+        </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="ProjetCalculatrice.js"></script>
+</body>
+</html>
